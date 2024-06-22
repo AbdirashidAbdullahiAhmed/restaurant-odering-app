@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <title>restaurant-ordering-app</title>
+</head>
+<body>
+    <header>
+        <!-- <img src="images/bg-img.png" alt=""> -->
+        <div class="container">
+            <h1>
+				Jimmy's Diner
+			</h1>
+            <p>the best burgers and pizzas in lown</p>
+        </div>
+    </header>
+    <div class="container" id="container"></div>
+    <div class="container" id="ordering-food">
+        <h1 class="heading" style="display: none;">Your Order</h1>
+        <!-- Initially hide the total price display -->
+    </div>
+    <div class="container" id="total-price-display" style="display: none;"></div>
+
+    <div class="modal" id="modal">
+		<div class="modal-inner" id="modal-inner">
+			<h2>Enter your Card Details</h2>
+			<!-- <p class="modal-text" id="modal-text">We have a strict policy on tracking and spamming: we'll definitely track you, and we'll definitely spam you. To use this
+				site, enter your name and email address and accept our ridiculous terms and conditions.</p> -->
+			<form id="consent-form">
+				<input type="text" name="fullName" placeholder="Enter Your Name" required/>
+				<input type="number" name="number" placeholder="Enter Card Number" required/>
+                <input type="password" name="cvvnumber" placeholder="Enter CVV" required/>
+
+				<div class="modal-choice-btns" id="modal-choice-btns">
+					
+					<!-- <button class="modal-btn">Decline</button> -->
+				</div>
+                <button type="submit" class="modal-btn">Pay</button>
+
+			</form>
+		</div>
+	</div>
+    <!-- <div class="container" id="appreciate" style="display: none;"></div> -->
+
+    <script src="script.js" type="module"></script>
+
+</body>
+</html>
+
+
+

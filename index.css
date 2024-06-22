@@ -1,0 +1,203 @@
+body{
+    font-size: 16px;
+    font-family: "Smythe", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    color: #2b283a;
+    margin: 0;
+}
+
+header{
+    color: white;
+    background-image: url("images/bg-img.png");
+    background-size: cover;
+    /* text-align: center; */
+    padding: 46px 0;
+    
+}
+
+h1{
+    /* color: whitesmoke; */
+    font-size: 36px;
+    margin: 0;
+}
+
+span{font-size: 36px;
+    text-align: center;
+    border: 1px solid #DEDEDE;
+    border-radius: 50%;
+    display: block;
+    padding:  0 15px;
+
+}
+
+.price{
+    display: none;
+}
+
+
+
+
+
+.container{
+width: 620px;
+padding: 0 40px;
+   /* margin: 0 auto; */
+    /* margin: 0 auto; */
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D2D2D2;
+    /* margin: 40px; */
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    /* margin: 0 40px; */
+
+    /* padding: 0 0 0 20px; */
+    /* width: 100%; */
+}
+
+.flex-item-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.your-order{
+    padding: 20px;
+    text-align: center;
+}
+
+
+ .card-row{
+    display: flex;
+    
+    justify-content: space-between;
+    /* border-bottom: 1px solid #D2D2D2; */
+    /* margin: 40px; */
+    padding: 0;
+    /* padding-top: 20px;
+    padding-bottom: 20px;  */
+    /* margin: 0 40px; */
+
+    /* padding: 0 0 0 20px; */
+    /* width: 100%; */
+}
+
+.heading{
+    text-align: center;
+}
+
+
+.flex-column{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-price{
+     display: flex;
+     justify-content: space-between;    
+}
+
+.complete-order {
+    display: block;
+    margin: 10px auto;
+    padding: 20px;
+    width: 100%;
+    /* border-radius: 30px; */
+    border: none;
+    background-color: #16DB99;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 420px;
+    width: 600px;
+    
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.modal-inner{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.modal-inner-loading{
+    text-align: center;
+}
+
+/* modal buttons */
+
+.modal-btn{
+ margin-top: 15px;
+ width: 86%;
+ padding: 20px;
+ background-color: #16DB99;
+ border: none;
+}
+
+/* modal input */
+
+input{
+    margin-top: 15px;
+    border: 1px solid #212529;
+    padding: 15px;
+    width: 400px;
+    border-radius: 3px;
+}
+
+/* modal after submit */
+
+.loading{
+    width: 100%; 
+    margin-top: 10px;
+}
+
+.modal-display-name{
+    color: fuchsia;
+}
+
+.modal-text{
+    height: 140px;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+.idiot-gif{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.idiot-gif img{
+    box-shadow: 1px 1px 3px #999;
+    border-radius: 5px;
+}
+
+
+.thanks-message{
+  
+    background-color: #ECFDF5;
+    color: #065F46;
+    text-align: center;
+    padding: 40px;
+    font-size: 25px;
+}
+
+
